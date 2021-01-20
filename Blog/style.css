@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body{
+  margin: 100px;
+  font-family: "cursive";
+ 
+}
+
+h1, h2, h3{
+  font-family: "pacifico";  
+}
+
+h2, h3{
+  color: #00af91;
+}
+
+.banner{
+  border: 0px solid grey;
+  height: 60vh;
+  background-color: grey;
+  background-image: url("https://image.freepik.com/photos-gratuite/portrait-femme-afro-americaine-drole-dans-style-retro_171337-8708.jpg");
+background-size: cover;
+ background-position: center;
+ Margin: 0px;
+}
+
+.banner h1 {
+  color: white;
+  text-shadow: 4px 2px 0px #af0069;
+}
+
+.color{
+  color: black;
+}
+
+.banner p{
+  color: white;
+}
+
+.text-center{
+  text-align: right;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  margin: 10px;
+}
