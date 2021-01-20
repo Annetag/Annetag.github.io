@@ -94,18 +94,21 @@ img{
   background-image: url('https://i.pinimg.com/736x/18/a5/59/18a5595f26a1486bce8206cd6a65588f.jpg');
 background-size: cover;
 background-position: up;
+font-size: 40px;
 }
 
 .bg-van-2{
   background-image: url('https://d17a17kld06uk8.cloudfront.net/products/2S8CHZ7/WTMJ2TCK-large.jpg');
 background-size: cover;
 background-position: up;
+font-size: 40px;
 }
 
 .bg-van-3{
   background-image: url('https://d17a17kld06uk8.cloudfront.net/products/P9SPSDH/IBURQ893-large.jpg');
 background-size: cover;
 background-position: up;
+font-size: 40px;
 }
 
 /*SECTION PRODUCT*/
