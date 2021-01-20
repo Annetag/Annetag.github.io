@@ -1,53 +1,140 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Satisfy&display=swap');
 
 body{
-  margin: 100px;
-  font-family: "cursive";
- 
+  margin: 0px;
+  font-family: garamond;
+  background-color: #cfdac8;
+  color: #008891;
 }
 
 h1, h2, h3{
-  font-family: "pacifico";  
+  font-family: satisfy;
+  color: #df7861;
 }
 
-h2, h3{
-  color: #00af91;
+section, div, img{
+  border: 0px solid;
+  min-height: 100px;
+  min-width: 100px;
 }
 
-.banner{
-  border: 0px solid grey;
-  height: 60vh;
-  background-color: grey;
-  background-image: url("https://image.freepik.com/photos-gratuite/portrait-femme-afro-americaine-drole-dans-style-retro_171337-8708.jpg");
-background-size: cover;
- background-position: center;
- Margin: 0px;
+section{
+  padding: 50px 100px;
 }
 
-.banner h1 {
-  color: white;
-  text-shadow: 4px 2px 0px #af0069;
+img{
+  object-fit: cover;
 }
 
-.color{
-  color: black;
+.bg-white{
+  background-color: white;
 }
 
-.banner p{
-  color: white;
-}
+/*SECTION HERO*/
 
-.text-center{
-  text-align: right;
-}
-
-.centered{
+#hero{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
-.container{
-  margin: 10px;
+#hero img{
+  height: 250px;
+}
+.btn{
+  border-radius: 4px;
+  display: inline-block;
+  padding: 8px 12px;
+  border: 0px solid;
+  font-family: satisfy;
+  background-color: #df7861;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: #008891;
+  color: #df7861;
+}
+
+.italic-grey{
+  font-style: italic;
+  color: #008891;
+  margin-top: -10px;
+}
+
+.italic{
+  font-style: italic;
+}
+
+/*SECTION STARS*/
+.card{
+  width: 30%;
+  height: 200px;
+  background-color: grey;
+  color: #ff4646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 2px black;
+  border-radius: 100px;
+  
+}
+
+.card h3{
+  
+}
+
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bg-van-1{
+  background-image: url('https://i.pinimg.com/736x/18/a5/59/18a5595f26a1486bce8206cd6a65588f.jpg');
+background-size: cover;
+background-position: up;
+}
+
+.bg-van-2{
+  background-image: url('https://d17a17kld06uk8.cloudfront.net/products/2S8CHZ7/WTMJ2TCK-large.jpg');
+background-size: cover;
+background-position: up;
+}
+
+.bg-van-3{
+  background-image: url('https://d17a17kld06uk8.cloudfront.net/products/P9SPSDH/IBURQ893-large.jpg');
+background-size: cover;
+background-position: up;
+}
+
+/*SECTION PRODUCT*/
+
+.card-product{
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card-product img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+/* SECTION FEATURE*/
+.card-line{
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  box-shadow: 1px 1px 1px #cfdac8;
+}
+
+.text-container{
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.card-line img{
+  height: 200px;
 }
